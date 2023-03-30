@@ -429,7 +429,7 @@ span:hover{
     position: fixed;
     top: 5px;
     left: 0px;
-    background-color: rgb(241, 241, 105);
+    background-color: white;
     z-index: 999;
     transition: width 0.2s ease;
     border-radius: 10px;
