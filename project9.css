@@ -1,0 +1,436 @@
+body{
+    background-color: rgb(8, 8, 8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 500vh; 
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: fit-content;
+    gap: 150px;
+    margin-top: 0;
+    padding-top: 0;
+    color: white;
+}
+.one{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 0;
+    padding-top: 0;
+}
+.beatslogo{
+    height: 30px;
+    margin-top: 0;
+    padding-top: 0;
+}
+.mainimage{
+    height: 450px;
+    width: 130ox;
+}
+.box1{
+    margin-top: 0;
+    padding-top: 0;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+
+}
+.box2{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+
+}
+.amazon{
+    height: 20px;
+    width: 70px;
+    transition: transform 0.3s ease;
+}
+.two{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+}
+li{
+    font-size: xx-small;
+}
+.product{
+    display: block;
+    font-size: 15px;
+    border: 3px solid rgb(65, 55, 55);;
+    border-radius: 3px;
+    background-color: rgb(70, 52, 52);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    transition: transform 0.3s ease;
+    
+}
+.onear{
+    height: 80px;
+    margin-left: 68px;
+    margin-top: 40px;
+} 
+.beats{
+    font-size: 35px;
+    font-weight: 900;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} 
+.text{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 200px;
+    margin-left: 50px;
+} 
+.overview{
+    font-size: 8px;
+    word-spacing: 5px;
+    transition: transform 0.3s ease;
+}
+.overview1{
+    font-size: 25px;
+    
+}
+.box2{
+    position: relative;
+    top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.addtobag{
+    height: 18px;
+    width: 15px;
+    transition: transform 0.3s ease;
+}
+.hero6{
+    display: flex;
+    gap: 3px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 20px;
+    right: 8px;
+    background-color: rgb(47, 46, 46)
+    ;
+    width: 200px;
+    border-radius: 8px;
+    font-size: 10px;
+}
+.box3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+.specs{
+    height: 90px;
+    width: 300px;
+}
+.specsmain{
+    display: flex;
+    gap: 40px;
+}
+.specsmain1{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.specscommon{
+    height: 15px;
+    width: 15px;
+    transition: transform 0.3s ease;
+}
+.about{
+    font-size: 8px;
+}
+.specs2{
+    position: relative;
+    right: 30px;
+}
+.specs3{
+    position: relative;
+    right: 60px;
+}
+.specs4{
+    position: relative;
+    right: 60px;
+}
+.specs5{
+    position: relative;
+    right: 30px;
+}
+.specsmain2{
+    height: 300px;
+    width: 300px;
+    position: relative;
+    top: 40px;
+}
+.box4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+}
+.case{
+    height: 70px;
+    width: 300px;
+}
+.hero7{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+}
+.hero8{
+    display: flex;
+    gap: 50px;
+}
+.three{
+    height: 300px;
+    width: 200px;
+    gap: 40px;
+    position: relative;
+    top: 100px;
+}
+.p1{
+    font-size: 10px;
+    word-spacing: 6px;
+}
+.moreinfo{
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    padding: 8px;
+    top: 10px;
+    left: 25px;
+    gap: 15px;
+    background-color: rgb(59, 56, 56);
+    border-radius: 5px;
+    font-size: 10px ;
+    transition: transform 0.3s ease;
+}
+.logo{
+    height: 20px;
+}
+.hero8{
+    height: 450px;
+}
+.box5{
+    height: 350px;
+    width: 700px;
+    border-radius: 10px;
+    background-color: rgb(30, 27, 27);
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+}
+.immense{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    flex-direction:column ;
+    align-items: center;
+}
+.buynow{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: rgb(12, 12, 12);
+    height: fit-content;
+    font-size: 12px;
+    width: fit-content;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+span{
+    margin: 10px;
+    transition: transform 0.3s ease;
+}
+.bag2{
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 20px;
+    width: 20px;
+    transition: transform 0.3s ease;
+}
+.percentoff{
+    font-size: 10px;
+}
+.box6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+.choose{
+    height: 150px;
+    width: 400px;
+    margin: 20px;
+    padding: 10px;
+}
+.outer{
+    display: flex;
+    gap: 50px;
+}
+.hero1{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+.hero2{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+.herosmall{
+    height: 130px;
+    width: 130px;
+    background-color: rgb(59, 57, 57);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+.blackimg{
+    height: 80px;
+    width: 80px;
+    position: relative;
+    top: -25%;
+    transition: transform 0.3s ease;
+}
+.black{
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    font-size: 12px;
+}
+.bag3{
+    border-radius: 10px;
+    padding: 8px;
+    height: 12px;
+    background-color: rgb(14, 13, 13);
+    transition: transform 0.3s ease;
+    ;
+}
+.box7{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    gap: 50px;
+    margin: 40px;
+}
+.hero3{
+    display: flex;
+    flex-direction: column;
+}
+.hero4{
+    display: flex;
+    flex-direction: column;
+}
+.products{
+    font-weight: 700px;
+    font-size: 18px;
+    transition: 0.2s ease;
+}
+li{
+    font-size: 7px;
+}
+.email{
+    height: 15px;
+    width: 12px;
+    position: relative;
+    top: 13px;
+    
+}
+.small{
+    display: flex;
+    gap: 60px;
+    background-color: rgb(52, 50, 50);
+    border-radius: 10px;
+}
+.subscribe{
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+}
+h5{
+    position: relative;
+    bottom: 9px;
+}
+h4{
+    padding-left: 10px;
+}
+.end{
+    transition: 0.2s ease;
+}
+.uparrow{
+    height: 30px;
+    position: relative;
+    left: 30px;
+    top: 10px;
+    transition: 0.2s ease;
+}
+.beatslogo2{
+    position: relative;
+    top: 20px;
+    height: 20px;
+}
+.home{
+    font-size: 15px;
+}
+.overview:hover ,.p1:hover, .product:hover{
+    transform: scale(1.1);
+}
+.specscommon:hover ,.uparrow:hover ,.products:hover{
+    transform: scale(1.6);
+}
+.moreinfo:hover{
+    transform: scale(1.2);
+}
+.bag2:hover ,.blackimg:hover ,.addtobag:hover ,.bag3:hover{
+    transform: scale(1.4);
+}
+span:hover{
+    transform: scale(1.4);
+}
+.amazon:hover ,.end:hover{
+    transform: scale(1.3);
+}
+.home:hover{
+    background-color: #d7b7b7;
+    border-radius: 5px;
+    color: black;
+}
+#scroll{
+    height: 10px;
+    width: 0px;
+    position: fixed;
+    top: 5px;
+    left: 0px;
+    background-color: rgb(241, 241, 105);
+    z-index: 999;
+    transition: width 0.2s ease;
+    border-radius: 10px;
+} 
